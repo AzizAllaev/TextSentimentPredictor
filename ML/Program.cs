@@ -31,11 +31,11 @@ namespace ML
 
 			if(output.PredictedLabel == 1)
 			{
-				Console.WriteLine($"Predicted sentiment: Positive || Text: {otziv}");
+				Console.WriteLine($"Настроение: Positive || Текст: {otziv}");
 			}
 			else
 			{
-				Console.WriteLine($"Predicted sentiment: Negative || Text: {otziv}");
+				Console.WriteLine($"Настроение: Negative || Текст: {otziv}");
 			}
 
 			Console.WriteLine("Нажмите Enter для продолжения...");
